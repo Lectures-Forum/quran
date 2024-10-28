@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>القرآن</title>
+</head>
+<body>
+    <button onclick="goBack()" style="position: fixed; top: 10px; left: 10px;">&#8592; رجوع</button>
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+        </script>
+<button onclick="goBack()" style="
+position: fixed; 
+top: 10px; 
+left: 10px; 
+padding: 10px 20px; 
+background-color: #007bff; 
+color: white; 
+border: none; 
+border-radius: 5px; 
+cursor: pointer;
+">&#8592; رجوع</button>
+    <style>
+        body {
+            background-color: #DBC2AD;
+        }
+        .audio {
+            text-align: center; /* لجعل المحتوى في المنتصف */
+        }
+        .audio img {
+            display: block;
+            margin: 0 auto;
+        }
+        .audio span {
+            display: block;
+            margin-top: 10px; /* مسافة بين الصورة والنص */
+        }
+        .audio audio {
+            display: block;
+            margin-top: 100px; /* مسافة بين الاسم ومشغل الصوت */
+        }
+    </style>
+    <div class="container">
+        <h1>القرأن الكريم</h1>
+        <div class="audio">
+            <img src="a (14).png" alt="Girl in a jacket" width="300" height="300" alt="الاذان">
+            <span>الاذان</span>
+            <audio controls>
+                <source src="الاذان.mp3" type="audio/mpeg">
+            </audio>
+        </div>
+        <div class="audio">
+            <img src="a (15).png" alt="Girl in a jacket" width="300" height="300" alt="سورة الفاتحة">
+            <span>سورة الفاتحة</span>
+            <audio controls>
+                <source src="سورة الفاتحه.mp3" type="audio/mpeg">
+            </audio>
+        </div>
+             <div class="audio">
+                <img src="a (16).png" alt="Girl in a jacket" width="300" height="300" alt="آية الكرسي">
+                <span>آية الكرسي</span>
+                <audio controls>
+                <source src="آية الكرسي.mp3" type="audio/mpeg">
+                </audio>
+            </div>
+                <div class="audio">
+                    <img src="a (20).png" alt="سورة الاخلاص">
+                    <span>سورة الاخلاص</span>
+                    <audio controls>
+                    <source src="سورة الاخلاص.mp3" type="audio/mpeg">
+                    </audio>
+                    </div>
+                    <div class="audio">
+                        <img src="a (18).png" alt="سورة الفلق">
+                        <span>سورة الفلق</span>
+                        <audio controls>
+                        <source src="سورة الفلق.mp3" type="audio/mpeg">
+                        </audio>
+                        </div>
+                        <div class="audio">
+                            <img src="a (19).png" alt="سورة الناس">
+                            <span>سورة الناس</span>
+                            <audio controls>
+                            <source src="سورة الناس.mp3" type="audio/mpeg">
+                            </audio>
+                            </div>
+    </div>
+</body>
+</html>
